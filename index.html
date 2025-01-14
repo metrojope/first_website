@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="metrojope">
+        <meta name="description" content="This page contains all the things about me.">
+        <title>About me</title>
+        <link rel="icon" href="preocupado.png" type="image/x-icon">
+        <link rel="stylesheet" href="main.css" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="profile-container">
+                <img src="foto_perfil.jpg" alt="My face" class="profile-image">
+                    <div class="profile-details">
+                        <h1><a class="header-name" href="#top" id="back-to-top">METROJOPE</a></h1>
+                    </div>
+            </div>
+
+            <div class="nav-buttons">
+                <button onclick="document.getElementById('presentation').scrollIntoView({ behavior: 'smooth' });">Presentation</button>
+                <button onclick="document.getElementById('career').scrollIntoView({ behavior: 'smooth' });">Academic Career</button>
+                <button onclick="document.getElementById('hobbies').scrollIntoView({ behavior: 'smooth' });">Hobbies</button>
+                <button onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });">Contact</button>
+            </div>
+        </div>
+
+        <!-- Placeholder div to account for the fixed header -->
+        <div class="header-placeholder"></div>
+
+        <div class="presentation" id="presentation">
+            <h2>Presentation</h2>
+            <p>My name is João Pedro and I am a <span id="age"></span> years old portuguese biomedical engineer with a strong passion for technology and its
+                transformative applications in healthcare. My academic and practical
+                experiences have equipped me with a broad foundation in various
+                engineering disciplines and related fields, enabling me to contribute not
+                only to medical advancements but also to a range of other sectors.
+                Known for my organizational skills and sense of responsibility, I am
+                driven to excel within a collaborative team dedicated to advancing
+                biomedical engineering and creating positive impacts in people’s lives.
+                Motivated by opportunities for growth and innovation, I am eager to
+                embrace new challenges in this dynamic field.</p>
+        </div>
+
+        <div class="career" id="career">
+            <h2>Academic Career</h2>
+                <ul>
+                    <li><a href="https://www.uminho.pt/en/education/educational-offer/_layouts/15/uminho.portalum.ui/pages/catalogocursodetail.aspx?itemid=4099&catid=12" target="_blank"><b>MSc in Biomedical Engineering - Specialization area in Medical Electronics (University of Minho)</b></a></li>
+                    <p>Bioinformatics | Image Processing | Microtechnologies in
+                        Silicon | Robotics | Biosensors | Integrated Analog Circuits |
+                        Medical Applications of Ultrasounds | Radiology and Nuclear
+                        Medicine</p>
+                    <p>Thesis: <a  href="dissertacao_jpos.pdf" target="_blank">Bonding of sapphire and silicon substrates
+                        in vapor cells for optically pumped atomic magnetometers (Written in Portuguese)</a></p>
+                    <li><a href="https://www.uminho.pt/en/education/educational-offer/_layouts/15/uminho.portalum.ui/pages/catalogocursodetail.aspx?itemid=4084&catid=12" target="_blank"><b>BSc in Biomedical Engineering (University of Minho)</b></a></li>
+                </ul>
+        </div>
+
+        
+    
+        <div class="hobbies" id="hobbies">
+            <h2>Hobbies</h2>
+                <ul>
+                    <li><b>Programming - <a href="https://github.com/metrojope" target="_blank">My Projects</a></b></li>
+                        <ul class="subsec1">
+                            <li><b>Front-end development</b></li>
+                            <ul>
+                            <p>I am currently learning HTML, CSS and Javascript, skills that I intend to use in future projects and possibly my career.</p>
+                            </ul>
+                        </ul>
+                    <li><b>Gaming</b></li>
+                        <ul class="subsec1"></ul>
+                    <li><b>Working out</b></li>
+                        <ul class="subsec1"></ul>
+                    <li><b>Reading</b></li>
+                        <ul class="subsec1"></ul>
+                </ul>
+        </div>
+
+        <div class="contact-icons" id="contact-icons">
+            <h2>Contact Me</h2>
+            <div class="contact-info" id="contact">
+                <a href="mailto:jope.olisilva@gmail.com" class="contact-icon"><i class="fas fa-envelope"></i></a>
+                <a href="tel:+351926425846" class="contact-icon"><i class="fas fa-phone"></i></a>
+                <a href="https://www.linkedin.com/in/metrojope/" target="_blank" class="contact-icon"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright &copy; metrojope 2025</p>
+        </div>
+    </body>
+
+    <script src="script.js"></script>
+
+</html>
+
